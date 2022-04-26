@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  top: 0;
+  position:sticky;
+  z-index: 999;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 0.1px solid lightgray;
+}
+.header-right{
+  display: flex;
+  align-items: center;
+  
+}
+.header-left{
+  display: flex;
+  padding: 5px;
+}
+.header-left > img {
+  object-fit: contain;
+  height: 35px;
+  padding: 5px;
+  margin-right: 5px;
+}
+.header-search{
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  border-radius: 5px;
+  height: 15px;
+  color: gray;
+  background-color: #eef3f8;
+}
+.header-search>input{
+  outline: none;
+  border: none;
+  background: none;
+}
